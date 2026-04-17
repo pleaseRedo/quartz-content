@@ -1,3 +1,7 @@
+---
+tags: [blog]
+---
+
 # WezTerm Keybindings
 
 ## Modifiers

@@ -8,6 +8,7 @@ Links:
   - "[[+Learning]]"
   - "[[Vim]]"
   - "[[Terminal]]"
+tags: [blog]
 ---
 
 ---
