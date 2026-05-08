@@ -17,7 +17,7 @@ category: Neovim
 ### Update 
 Using latest binary overwrites `/program files/neovim`. Verified via `nvim -v`.
 
-Recommended workflow:
+### Recommended workflow:
 Avoid using the mouse and arrow keys if they are not at the home row of your keyboard.
 1. relative jump (e.g.: `5j 12-`) for vertical movement within the screen.
 2. Use `CTRL-U CTRL-D CTRL-B CTRL-F gg G` for vertical movement outside the screen.
@@ -61,6 +61,10 @@ by AstroNvim
 	<ctrl+r> redo
 	<ctrl+r> in insert: followed by "+", paste when insert. r for Register.
 
+### Repetition
+	f F ; , : used by `f` / `F` / `t` / `T`
+	n N : used by '/' '*' '#'
+	. : Repeat last operation e.g: cwhello<esc>.
 ### Sentence
 	A sentence is basically anything that ends with `.`, `?` or `!` followed by a whitespace.  
 	) (: move one sentence forward. move to the start of the current sentence.
@@ -115,7 +119,7 @@ myObj.methodName('foo', 'bar', 'baz')
 	/<word> : highlight <word>, press <enter> to jump to that word. Press 'n' to go to next result and it will wrap up, or go backward to using 'N'.
 	?<word> : search upward. Better to remap above key combo with 'zz'
 	*/# : search for whole word under cursor forward/backward, equivalent to /<wordundercursor>
-	g*/# : search for word under cursor forward/backward, if you search "one" and try to match "onetwo", need to use this instead of *
+	g*/# : search for string slice under cursor forward/backward, if you search "one" and try to match "onetwo", need to use this instead of *
 
 ### Visual line mode
 	v: Enter visual character mode. In visual mode, <verb> takes immediate effect rather than takes a <motion>.
@@ -199,6 +203,12 @@ myObj.methodName('foo', 'bar', 'baz')
 		(defn sum [])
 	text object highlight is position insensitive.
 	`d2a{` will delete everything inside the second-nearest set of curly brackets.
+
+### Buffer/Windows/Tabs quick switch
+	[b ]b : buffers
+	H L : buffers
+	<ctrl> hjkl : windows
+	<leader><tab>[ ] : tabs		
 ### Buffers
 	Analogy: Deck of playing cards. The card on top is the only card you see, but you know there are cards below it.
 	"tabs" on top left corner
