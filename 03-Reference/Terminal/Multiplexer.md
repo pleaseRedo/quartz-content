@@ -9,6 +9,8 @@ Links:
 - [[WezTerm]]
 - [[Terminal]]
 tags: [blog]
+published: 2026-05-11 14:35
+modified: 2026-05-11 14:35
 ---
 
 Need to think about the practical usage of features mentioned.

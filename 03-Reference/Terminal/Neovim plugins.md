@@ -1,5 +1,7 @@
 ---
 tags: [blog]
+published: 2026-05-11 14:35
+modified: 2026-05-11 14:35
 ---
 
 https://www.bilibili.com/video/BV1zY4y1Z7FR/?spm_id_from=333.999.0.0&vd_source=fa78d7b6f3ec29725a0e788b175a07b6
@@ -21,7 +23,7 @@ vim-tmux-navigator
 	S: flash treesitter
 	regular search enhance: showed jump labels
 	f F t T enhance: after typing `f t{char}` or `F T{char}` repeat with f F. ';' or ',' for next or prev match.
-	r : remote flash,
+	r : remote flash, used in **operator-pending** mode (y{} d{} c{}). Need operator after flashing. Currently glitching with cursor-smear.
 	R: treesitter search
 	<ctrl-s>: toggle flash search
 

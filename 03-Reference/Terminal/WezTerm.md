@@ -1,7 +1,9 @@
 ---
 tags: [blog]
+published: 2026-05-11 14:34
+modified: 2026-05-11 14:34
 ---
-
+Git bash is the default terminal command language
 # WezTerm Keybindings
 
 ## Modifiers
@@ -56,6 +58,7 @@ tags: [blog]
 ## UI
 - `MOD + m` → Toggle pane zoom
 - `MOD + p` → Command palette
+- `MOD + L` → Launch panel 
 - `MOD + d` → Debug overlay
 ## Notes (Windows key pitfalls)
 - `|`, `_`, `{`, `}` may be unreliable on Windows when used as `key` values  
